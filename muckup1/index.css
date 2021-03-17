@@ -1,0 +1,91 @@
+body{
+  background-color: black;
+}
+.container{
+  display: flex;
+  height: 97vh;
+  justify-content: center;
+  align-items: center;
+}
+.content{
+  background-image: url(router.JPG);
+  width: 641px;
+  height: 478px;
+}
+.header{
+  justify-content: space-between;
+  display: flex;
+}
+.header h3{
+  margin-left: 13px;
+  margin-bottom: 5px;
+  font-size: 13px;
+  color: lightgray;
+}
+.nav{
+  list-style-type: none;
+  margin: 13px 0 5px 0;
+  padding-left: 0;
+}
+.nav li{
+  display: inline-block;
+  padding: 0 10px;
+  
+}
+.nav li a{
+  text-decoration: none;
+  font-size: 10px;
+  color: lightgray;
+}
+.header-separator{
+  border-color: #449cd3;
+  height: 0;
+  margin: 0;
+}
+.main-content{
+  padding: 52px
+}
+.main-content h1{
+  text-align: center;
+  font-size: 28px;
+  color: white;
+  
+}
+.main-content p{
+  text-align: center;
+  font-size: 13px;
+  padding-top: 15px;
+  color: lightgray;
+}
+.btn{
+  padding: 15px 0;
+  text-align: center;
+  
+}
+.btn button{
+  background-color: #5c8097;
+  font-size: 8px;
+  border-width: 0;
+  border-radius: 25px;
+  padding: 10px;
+  color: white;
+}
+.footer{
+  background-color: #5c8097;
+  text-align:center;
+}
+.footer h3{
+  padding-top: 40px;
+  color: lightgray;
+  margin: 0;
+}
+.footer div{
+  display: inline-block;
+  width: 30px;
+  height: 2px;
+}
+.footer p{
+  color: lightgray;
+  padding: 0 110px;
+  font-size: 11px;
+}
