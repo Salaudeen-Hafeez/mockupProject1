@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "deploy": "gh-pages -d muckup1"
+    "deploy": "gh-pages -d mockup1"
   },
   "keywords": [],
   "author": "",
